@@ -35,5 +35,35 @@ A full-featured e-commerce application built with React, Bootstrap, and local st
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/mujju-11/blinkit-clone.git
 cd blinkit-clone
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Project Structure
+
+- `/src/components` - Reusable UI components
+- `/src/pages` - Page components
+- `/src/context` - React context providers
+- `/src/services` - Service classes for data handling
+- `/src/utils` - Utility functions and constants
+- `/src/assets` - Static assets like images
+
+## License
+
+MIT
