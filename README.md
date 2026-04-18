@@ -64,6 +64,15 @@ yarn start
 - `/src/utils` - Utility functions and constants
 - `/src/assets` - Static assets like images
 
+## Architecture & Resource Handling
+
+See [ARCHITECTURE.md](./ARCHITECTURE.md) for a detailed, code-based explanation of:
+
+- Whether this codebase contains any on-device ML model / inference code (it does not)
+- How RAM is allocated and released (React state, garbage collection)
+- How persistent storage works (`localStorage` via service classes and context hooks)
+- Which browser hardware resources are used and how
+
 ## License
 
 MIT
